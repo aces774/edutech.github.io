@@ -1,7 +1,7 @@
 .navbar{
   margin-bottom:0;
   border:none;
-  background-color:#00ccff;
+  background-color:#0000ff;
   border-radius:initial;
   border:initial;
 }
@@ -161,5 +161,27 @@ section.testimonials{
 
 div.rowhead{
   height:500px;
+}
+
+li{
+  color:yellow;
+}
+
+.nav > li{
+  position:relative;
+  display:block;
+  color:white;
+}
+
+.navbar-default .navbar-nav > li > a{
+  color:white;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+  color:yellow;
+  background-color:transparent;
+}
+
+a.text-primary{
 }
 
