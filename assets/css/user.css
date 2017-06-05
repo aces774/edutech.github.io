@@ -2,6 +2,8 @@
   margin-bottom:0;
   border:none;
   background-color:#00ccff;
+  border-radius:initial;
+  border:initial;
 }
 
 .navbar-brand .glyphicon{
