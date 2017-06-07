@@ -122,7 +122,7 @@ section.testimonials{
 .site-footer{
   height:3px;
   padding:10px 0;
-  text-align:center;
+  text-align:left;
 }
 
 @media (min-width:768px) {
