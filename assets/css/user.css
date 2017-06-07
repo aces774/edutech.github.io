@@ -212,3 +212,8 @@ div.nav{
 div{
 }
 
+body{
+  margin:0;
+  background-repeat:no-repeat;
+}
+
