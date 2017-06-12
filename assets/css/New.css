@@ -10,3 +10,8 @@ body{
   background-color:#F8F8F8;
 }
 
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary{
+  display:block;
+  height:50px;
+}
+
