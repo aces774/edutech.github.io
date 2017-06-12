@@ -4,63 +4,74 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>Admin Dashboard</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/user.css">
-    <link rel="stylesheet" href="assets/css/Mockup-MacBook-Pro.css">
-    <link rel="stylesheet" href="assets/css/Mockup-iPhone-6.css">
-    <link rel="stylesheet" href="assets/css/Material-Card.css">
-    <link rel="stylesheet" href="assets/css/Pretty-Registration-Form.css">
-    <link rel="stylesheet" href="assets/css/Hero-Technology.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/New.css">
 </head>
 
 <body>
     <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-            </div>
-            <div class="collapse navbar-collapse" id="navcol-1">
-                <ul class="nav navbar-nav">
-                    <li class="active" role="presentation"><a href="SIGNUP.html"><strong>SIGN UP </strong></a></li>
-                </ul>
-            </div>
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button data-toggle="collapse" data-target="#navcol-1" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
         </div>
-    </nav>
-    <section>
-        <div class="carousel slide" data-ride="carousel" data-keyboard="false" id="carousel-1">
-            <div class="carousel-inner" role="listbox">
-                <div class="item active"><img src="assets/img/EduTech.jpg" alt="Slide Image" width="100%"></div>
-                <div class="item"><img src="assets/img/EduTech Summer School 2017 Website - 1200 x 675 (1).jpg" alt="Slide Image" width="100%" height="100"></div>
-            </div>
-            <div><a class="left carousel-control visible-xs-block" href="#carousel-1" role="button" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i><span class="sr-only">Previous</span></a><a class="right carousel-control visible-xs-block"
-                href="#carousel-1" role="button" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i><span class="sr-only">Next</span></a></div>
-            <ol class="carousel-indicators">
-                <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-1" data-slide-to="1"></li>
-            </ol>
+        <div class="collapse navbar-collapse" id="navcol-1">
+            <ul class="nav navbar-nav">
+                <li role="presentation" class="active"><a href="#"><strong>HOME </strong></a></li>
+            </ul>
+            
+             <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Admin<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Logout</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Settings</a></li>
+          </ul>
+        </li>
+      </ul>
+   
+            
+            
         </div>
-    </section>
-    <section class="testimonials">
-        <h2 class="text-center">WELCOME TO EDUTECH SUMMER CAMP!</h2>
-        <blockquote>
-            <p class="hidden-xs hidden-sm hidden-md">The EduTech Summer Camp has been providing summer fun to children between the ages of 3 – 16 years since 1994. Our comprehensive summer programme incorporates sporting activities such as swimming, golf, football, fencing, badminton, and basketball
-                along with the visual and performing arts, gymnastics, and computer science. Each year, camp administrators introduce new and innovative activities for campers. This year we will be introducing Table Tennis as our new activity. Through
-                all of our activities the camp’s experienced directors, coaches and counsellors have helped campers discover new areas of interest, develop self confidence and make lifelong friends.EduTech Summer Camp provides a safe and stimulating environment
-                for children and teens under the guidance of our experienced staff. Our camp is held at the centrally located and beautifully maintained Constant Spring Golf Club, 152 Constant Spring Road. Throughout the four weeks, campers will take
-                part in a variety of fun challenges, competitions, special projects and field trips. Our camp culminates with a grand concert and prize giving which showcases the talents and newly acquired skills of campers. Parents are more than welcome
-                to view these events and to watch their children in action! In addition to the scheduled activities, EduTech offers a day outing that takes campers off site to interesting and fun locations across Jamaica.At EduTech Summer Camp, we believe
-                that our role is to enhance your child’s personal growth and development while providing a safe, fun and caring environment. We have a medical team of doctors on call and a nurse on site at all times. We take this role very seriously and
-                we strive very hard to ensure that each camper has an unforgettable summer experience.</p>
-            <footer> </footer>
-        </blockquote>
-        <p class="lead text-center show">EduTech Summer Camp runs Mondays – Thursdays, 8:30am – 2:30pm from July 4 – 28, 2017. For more information email edutech.summercamp1@gmail.com or call our offices at 927-5585 / 927-5557 / 990-8020. </p>
-    </section>
-    <section class="features">
-        <div class="macbook-mockup">
-            <div class="screen"></div>
-        </div>
-    </section>
+    </div>
+</nav>
+    <div class="container">
+        <h1>
+<span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+Dashboard
+<hr>
+</h1>
+        <div class="col-md-4">
+<div class="list-group">
+  <a class="list-group-item active"> <center><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Camper Management </center>  </a>
+  <a href="#" class="list-group-item"> <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Add Camper</a>
+  <a href="#" class="list-group-item"> <span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span> Flagged Camper/s</a>
+  <a href="#" class="list-group-item"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span> All Campers</a>
+</div>
+
+
+</div>
+        <div class="col-md-4">
+<div class="list-group">
+  <a class="list-group-item active"> <center><span class="glyphicon glyphicon-check" aria-hidden="true"></span> Counselor Management </center>  </a>
+  <a href="#" class="list-group-item"> <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Sign in | Sign Out</a>
+  <a href="#" class="list-group-item"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span> All Counselor</a>
+</div>
+
+
+</div>
+        <div class="col-md-4">
+<div class="list-group">
+  <a class="list-group-item active"> <center><span class="glyphicon glyphicon-tower" aria-hidden="true"></span> Administration</center>  </a>
+  <a href="#" class="list-group-item"> <span class="glyphicon glyphicon-send" aria-hidden="true"></span> Export Master List - Campers</a>
+  <a href="#" class="list-group-item"><span class="glyphicon glyphicon-send" aria-hidden="true"></span> Export Flagged Campers</a>
+</div>
+
+
+</div>
+    </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
